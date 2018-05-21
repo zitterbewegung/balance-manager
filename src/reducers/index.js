@@ -8,7 +8,7 @@ import metamask from './_metamask';
 import walletconnect from './_walletconnect';
 import notification from './_notification';
 import warning from './_warning';
-
+import trezor from './_trezor';
 export default combineReducers({
   exchange,
   send,
@@ -19,4 +19,5 @@ export default combineReducers({
   notification,
   warning,
   walletconnect,
+  trezor,
 });
